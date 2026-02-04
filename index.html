@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quivly</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+    </style>
+</head>
+<body class="bg-white text-black">
+
+    <div class="w-full min-h-screen px-5 py-6 md:px-10 md:py-10 mx-auto max-w-[2400px]" style="background-image: url('https://imolwncbqxugevwmleed.supabase.co/storage/v1/object/public/public-assets/hero-images/eb358097-811d-40f4-b65d-afcc24a5676e/hero-3-img-0-1770201447111.png'); background-size: cover; background-position: center;">
+        
+        <!-- Navigation -->
+        <!-- Grid layout: 12 columns to handle the specific 25% interval spacing -->
+        <header class="grid grid-cols-2 md:grid-cols-12 gap-4 text-[15px] leading-none mb-32 md:mb-64">
+            
+            <!-- Logo: Far Left -->
+            <div class="col-span-1 md:col-span-3 tracking-tight text-black">
+                Quivly
+            </div>
+
+            <!-- Mobile Menu Toggle -->
+            <div class="md:hidden col-span-1 text-right font-medium">Menu</div>
+
+            <!-- Desktop Links -->
+            <!-- Intelligence: Starts at 25% (Col 4) -->
+            <div class="hidden md:block md:col-start-4 md:col-span-3">
+                <a href="#" class="hover:text-[#475569] transition-colors">Projects</a>
+            </div>
+
+            <!-- Integrations: Starts at 50% (Col 7) -->
+            <div class="hidden md:block md:col-start-7 md:col-span-3">
+                <a href="#" class="hover:text-gray-600 transition-colors">Profile</a>
+            </div>
+
+            <!-- Solutions: Starts at 75% (Col 10) -->
+            <div class="hidden md:block md:col-start-10 md:col-span-2">
+                <button class="hover:text-gray-600 transition-colors">Lights Off</button>
+            </div>
+
+            <!-- Book Demo: Far Right -->
+            <div class="hidden md:block md:col-start-12 md:col-span-1 text-right">
+                <a href="#" class="hover:text-gray-600 transition-colors">Contact</a>
+            </div>
+        </header>
+
+        <main>
+            <!-- Hero Text Section -->
+            <section class="mb-32 md:mb-52">
+                <h1 class="text-2xl md:text-4xl lg:text-[2.65rem] leading-[1.15] tracking-tight font-normal max-w-full md:max-w-[78%] lg:max-w-[72%] text-black">
+                    Quivly converts scattered usage data into predictive revenue intelligence. We help usage-based SaaS companies prevent churn through continuous multi-source synchronization and weighted health modeling.
+                </h1>
+            </section>
+
+            <!-- Project Section -->
+            <section class="w-full">
+                <!-- Project Info Header -->
+                <div class="grid grid-cols-1 md:grid-cols-12 gap-y-2 md:gap-y-0 mb-5 text-[15px]">
+                    
+                    <!-- Title: Aligns with 'Projects' (Col 4) -->
+                    <div class="md:col-start-4 md:col-span-3 font-medium text-black">
+                        Revenue Health
+                    </div>
+
+                    <!-- Description: Aligns with 'Profile' (Col 7) -->
+                    <div class="md:col-start-7 md:col-span-6 lg:col-span-5 text-[#475569] leading-normal">
+                        Automated churn prediction for RevOps. Connect Snowflake and unlock real-time weighted health signals to capture the $50B customer intelligence market.
+                    </div>
+                </div>
+
+                <!-- Project Image -->
+                <div class="grid grid-cols-1 md:grid-cols-12">
+                    <!-- Image: Aligns with 'Projects' (Col 4) and spans to end -->
+                    <div class="md:col-start-4 md:col-span-9">
+                        <img src="https://imolwncbqxugevwmleed.supabase.co/storage/v1/object/public/public-assets/hero-images/eb358097-811d-40f4-b65d-afcc24a5676e/hero-3-img-1-1770201447804.png" alt="Quivly Revenue Intelligence Interface" class="w-full h-auto object-cover grayscale block aspect-[16/9] md:aspect-[16/8.5]">
+                    </div>
+                </div>
+            </section>
+        </main>
+
+    </div>
+
+</body>
+</html>
